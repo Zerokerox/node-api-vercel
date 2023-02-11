@@ -2,7 +2,7 @@
 const mongoose = require('mongoose')
 
 // connect to MongoDB
-const dbUrl = 'mongodb://127.0.0.1:27017/productDB' 
+const dbUrl = 'mongodb+srv://vercel-admin-user:<password>@cluster0.76npzdp.mongodb.net/?retryWrites=true&w=majority' 
 //ถ้าไม่มีให้สร้างขึ้นมา
 // ถ้ามีแล้วให้นำมาใช้
 mongoose.connect(dbUrl,{
