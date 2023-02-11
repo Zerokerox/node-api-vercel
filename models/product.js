@@ -2,7 +2,8 @@
 const mongoose = require('mongoose')
 
 // connect to MongoDB
-const dbUrl = 'mongodb+srv://vercel-admin-user:Zerozero1234@cluster0.76npzdp.mongodb.net/?retryWrites=true&w=majority' 
+//const dbUrl = 'mongodb+srv://vercel-admin-user:Zerozero1234@cluster0.76npzdp.mongodb.net/?retryWrites=true&w=majority' 
+const dbUrl = 'mongodb+srv://zerozerok:i3bY6lGSBaEyaPva@cluster0.76npzdp.mongodb.net/?retryWrites=true&w=majority'
 //ถ้าไม่มีให้สร้างขึ้นมา
 // ถ้ามีแล้วให้นำมาใช้
 mongoose.connect(dbUrl,{
